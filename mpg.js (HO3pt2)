@@ -1,0 +1,15 @@
+
+
+var floatAge, floatMonth, intFortnights, intWeek, floatDay;
+
+floatAge = parseFloat(prompt("Please enter age in years"));
+
+floatDay = parseFloat(floatAge * 365.25);
+floatMonth = parseFloat(floatAge * 12);
+intFortnights = parseInt(floatDay / 14);
+intWeek = parseInt(floatDay / 7);
+
+alert("Age in months: " + floatMonth + "Age in fortnights:" + intFortnights + "Age in weeks:" + intWeek + "Age in days:" + floatDay);
+
+
+
